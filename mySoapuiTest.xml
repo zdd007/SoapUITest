@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="fdfe62de-ad31-4fc6-b6aa-68e1b3eb65a4" activeEnvironment="Default" name="mySoapuiTest" resourceRoot="" soapui-version="5.1.2" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="reset password页面"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="新密码与旧密码一样"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value="TestSuite Report"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="88d5b8be-a94f-4800-829c-2308fbb50c2f" wadlVersion="http://wadl.dev.java.net/2009/02" name="全部接口" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings><con:setting id="88d5b8be-a94f-4800-829c-2308fbb50c2ffileName">http%3A%2F%2Ftestjustfit.bosma.cn%3A9090</con:setting></con:settings><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://rd.bosma.cn</con:endpoint></con:endpoints><con:resource name="登录接口" path="/bosma-smart-frontend/api/user/login" id="d147dea0-cbcc-4347-9228-9931c0b20c07"><con:settings><con:setting id="d147dea0-cbcc-4347-9228-9931c0b20c07fileName">登录接口</con:setting></con:settings><con:parameters><con:parameter><con:name>account</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>password</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>lang</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>imei</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>appId</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="ac020a8b-8ce1-4353-a8d2-857963f9ea92" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>405</con:status><con:params/><con:element xmlns:log="http://testjustfit.bosma.cn/api/user/login">log:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:log="http://testjustfit.bosma.cn/api/user/login">log:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>502</con:status><con:params/><con:element xmlns:xht="http://www.w3.org/1999/xhtml">xht:html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="0a876559-c72a-4d9b-a694-84f46c3617e1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://rd.bosma.cn</con:endpoint><con:request/><con:originalUri>http://testjustfit.bosma.cn/api/user/login</con:originalUri><con:credentials><con:username xsi:nil="true"/><con:password xsi:nil="true"/><con:domain xsi:nil="true"/><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="appId" value="capsule"/>
+  <con:entry key="imei" value="354970070273459"/>
+  <con:entry key="account" value="zhongdd007@sina.com"/>
+  <con:entry key="lang" value="en_US"/>
+  <con:entry key="password" value="fd8e1b2ec2f403c60d5085b62722b704"/>
+</con:parameters><con:parameterOrder><con:entry>account</con:entry><con:entry>password</con:entry><con:entry>lang</con:entry><con:entry>imei</con:entry><con:entry>appId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="16cd92df-b3be-40d7-ba12-cb59e18cc611" name="启动/登录/注册"><con:settings><con:setting id="16cd92df-b3be-40d7-ba12-cb59e18cc611fileName">启动%2F登录%2F注册</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:testCase id="61b5fab8-3a24-44bc-b4d7-f3856d3f46e4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="登录接口_账号正确、密码正确" searchProperties="true"><con:settings><con:setting id="61b5fab8-3a24-44bc-b4d7-f3856d3f46e4fileName">登录接口_账号正确%E3%80%81密码正确</con:setting></con:settings><con:testStep type="restrequest" name="正确登录" id="083961e6-1031-42c7-af51-25d7de74e381"><con:settings/><con:config service="全部接口" methodName="Method 1" resourcePath="/bosma-smart-frontend/api/user/login" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="正确登录" id="c0cffb74-e79b-4a70-a188-e08c0f1ed874" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://rd.bosma.cn</con:endpoint><con:request/><con:originalUri>http://testjustfit.bosma.cn/bosma-smart-frontend/api/user/login</con:originalUri><con:assertion type="GroovyScriptAssertion" id="981b776d-c5f8-4a0b-a926-9341b9084223" name="Script Assertion"><con:configuration><scriptText>def proper = net.sf.json.JSONSerializer.toJSON(messageExchange.responseContent);  
+def code = proper.get("code");
+assert code  == 0</scriptText></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="0364f930-bf5b-4e0e-83f9-4fe45e952ee9" name="Match content of [nickName]"><con:configuration><path>$.data.nickName</path><content>丹丹的新浪邮箱</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:username xsi:nil="true"/><con:password xsi:nil="true"/><con:domain xsi:nil="true"/><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="appId" value="smart"/>
+  <con:entry key="imei" value="123456"/>
+  <con:entry key="account" value="zhongdd007@sina.com"/>
+  <con:entry key="password" value="bacbc96d57da0555dc8b58beadbc2d93"/>
+  <con:entry key="lang" value="en_US"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>token</con:name><con:value>a57b102524af4a338caedfb8f4203d4c</con:value></con:property></con:properties><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
